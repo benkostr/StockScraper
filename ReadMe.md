@@ -21,7 +21,7 @@ company is currently stored in individual files within the
   libraries to the output (build) folder
 
 ##### Dependencies:
-* [cURL] (Link https://curl.haxx.se/)
+* [cURL](Link https://curl.haxx.se/)
 
 ### Contribution Guidleines:
 Try not to upload machine-specific changes to the
