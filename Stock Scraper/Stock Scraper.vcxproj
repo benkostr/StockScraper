@@ -102,7 +102,7 @@
 xcopy /d /r /e /i /y "$(ProjectDir)resource" "$(OutDir)resource"
 xcopy /d /r /e /i /y "$(VCInstallDir)redist\x86\Microsoft.VC140.CRT\msvcp140.dll" "$(OutDir)"
 xcopy /d /r /e /i /y "$(VCInstallDir)redist\x86\Microsoft.VC140.CRT\vcruntime140.dll" "$(OutDir)"
-xcopy /d /r /e /i /y "$(SolutionDir)curl-7.43.0\build\Win32\VC12\DLL Debug\libcurld.dll" "$(OutDir)"
+xcopy /d /r /e /i /y "$(SolutionDir)lib\curl-7.43.0\build\Win32\VC12\DLL Debug\libcurld.dll" "$(OutDir)"
 </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -126,7 +126,7 @@ xcopy /d /r /e /i /y "$(SolutionDir)curl-7.43.0\build\Win32\VC12\DLL Debug\libcu
 xcopy /d /r /e /i /y "$(ProjectDir)resource" "$(OutDir)resource"
 xcopy /d /r /e /i /y "$(VCInstallDir)redist\x64\Microsoft.VC140.CRT\msvcp140.dll" "$(OutDir)"
 xcopy /d /r /e /i /y "$(VCInstallDir)redist\x64\Microsoft.VC140.CRT\vcruntime140.dll" "$(OutDir)"
-xcopy /d /r /e /i /y "$(SolutionDir)curl-7.43.0\build\Win64\VC12\DLL Debug\libcurld.dll" "$(OutDir)"</Command>
+xcopy /d /r /e /i /y "$(SolutionDir)lib\curl-7.43.0\build\Win64\VC12\DLL Debug\libcurld.dll" "$(OutDir)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -153,7 +153,7 @@ xcopy /d /r /e /i /y "$(SolutionDir)curl-7.43.0\build\Win64\VC12\DLL Debug\libcu
 xcopy /d /r /e /i /y "$(ProjectDir)resource" "$(OutDir)resource"
 xcopy /d /r /e /i /y "$(VCInstallDir)redist\x86\Microsoft.VC140.CRT\msvcp140.dll" "$(OutDir)"
 xcopy /d /r /e /i /y "$(VCInstallDir)redist\x86\Microsoft.VC140.CRT\vcruntime140.dll" "$(OutDir)"
-xcopy /d /r /e /i /y "$(SolutionDir)curl-7.43.0\build\Win32\VC12\DLL Release\libcurl.dll" "$(OutDir)"
+xcopy /d /r /e /i /y "$(SolutionDir)lib\curl-7.43.0\build\Win32\VC12\DLL Release\libcurl.dll" "$(OutDir)"
 </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -181,7 +181,7 @@ xcopy /d /r /e /i /y "$(SolutionDir)curl-7.43.0\build\Win32\VC12\DLL Release\lib
 xcopy /d /r /e /i /y "$(ProjectDir)resource" "$(OutDir)resource"
 xcopy /d /r /e /i /y "$(VCInstallDir)redist\x64\Microsoft.VC140.CRT\msvcp140.dll" "$(OutDir)"
 xcopy /d /r /e /i /y "$(VCInstallDir)redist\x64\Microsoft.VC140.CRT\vcruntime140.dll" "$(OutDir)"
-xcopy /d /r /e /i /y "$(SolutionDir)curl-7.43.0\build\Win64\VC12\DLL Release\libcurl.dll" "$(OutDir)"</Command>
+xcopy /d /r /e /i /y "$(SolutionDir)lib\curl-7.43.0\build\Win64\VC12\DLL Release\libcurl.dll" "$(OutDir)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
