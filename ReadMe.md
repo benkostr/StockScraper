@@ -11,8 +11,11 @@ company is currently stored in individual files within the
  ```data/``` directory.
 
 ### How do I get set up?
-* Compile x86/x64 ```libcurl.dll``` & ```libcurld.dll```
-  release builds (no ssl, no ssh)
+* Compile x86/x64 ```libcurl.dll``` (Release) & 
+  ```libcurld.dll``` (Debug) builds (no ssl, no ssh)
+      * Read the [wiki](Link https://bitbucket.org/benkostr/stock-scraper/wiki/Home)
+        for a step-by-step process on compiling libcurl in
+        Visual Studio
 * For Visual Studio, open StockScraper.sln
 * You can compile to 32bit or 64bit, just make sure you use the
   correct cURL library
@@ -21,7 +24,7 @@ company is currently stored in individual files within the
   libraries to the output (build) folder
 
 ##### Dependencies:
-* [cURL] (Link https://curl.haxx.se/)
+* [cURL](Link https://curl.haxx.se/)
 
 ### Contribution Guidleines:
 Try not to upload machine-specific changes to the
