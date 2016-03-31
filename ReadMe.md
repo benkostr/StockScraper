@@ -13,7 +13,7 @@ is currently stored in individual files within the [data](data) directory.
 * Compile x86/x64 ```libcurl.dll``` (Release) &
   ```libcurld.dll``` (Debug) builds (no ssl, no ssh)
 
-  - Read the [wiki](https://bitbucket.org/benkostr/stock-scraper/wiki/Home)
+  - Read the [wiki](https://gitlab.com/Quijanza/stock-scraper/wikis/home)
   for a step-by-step process on compiling libcurl in
   Visual Studio or Unix
   
