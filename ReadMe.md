@@ -4,27 +4,30 @@
 
 ### What is this repository for?
 This application uses web scraping to download historical
-stock data from Yahoo! Finance. 
- ```resources/TickerSymbols.txt``` contains a list of ticker
-symbols that the application will use. Downloaded data for each
-company is currently stored in individual files within the
- ```data/``` directory.
+stock data from Yahoo! Finance.  
+[resources/TickerSymbols.txt](resources/TickerSymbols.txt) contains a list of
+ticker symbols that the application will use. Downloaded data for each company
+is currently stored in individual files within the [data](data) directory.
 
 ### How do I get set up?
-* Compile x86/x64 ```libcurl.dll``` (Release) & 
+* Compile x86/x64 ```libcurl.dll``` (Release) &
   ```libcurld.dll``` (Debug) builds (no ssl, no ssh)
-      * Read the [wiki](Link https://bitbucket.org/benkostr/stock-scraper/wiki/Home)
-        for a step-by-step process on compiling libcurl in
-        Visual Studio
+
+  - Read the [wiki](https://bitbucket.org/benkostr/stock-scraper/wiki/Home)
+  for a step-by-step process on compiling libcurl in
+  Visual Studio or Unix
+  
 * For Visual Studio, open StockScraper.sln
+
 * You can compile to 32bit or 64bit, just make sure you use the
   correct cURL library
+
 * Edit the post-build events to your specific needs. The
   post-build event simply copies the MSVC and libcurl ```.dll```
   libraries to the output (build) folder
 
 ##### Dependencies:
-* [cURL](Link https://curl.haxx.se/)
+* [cURL](https://curl.haxx.se/)
 
 ### Contribution Guidleines:
 Try not to upload machine-specific changes to the
